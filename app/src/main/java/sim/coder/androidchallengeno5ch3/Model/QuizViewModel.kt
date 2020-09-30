@@ -1,12 +1,8 @@
 package sim.coder.androidchallengeno5ch3.Model
 
-import android.annotation.SuppressLint
-import android.content.Context
-import android.widget.Toast
+
 import androidx.lifecycle.ViewModel
 import sim.coder.androidchallengeno5ch3.R
-import kotlin.contracts.contract
-
 class QuizViewModel :ViewModel (){
 
 

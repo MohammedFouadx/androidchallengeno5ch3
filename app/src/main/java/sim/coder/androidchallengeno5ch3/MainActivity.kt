@@ -40,10 +40,13 @@ class MainActivity : AppCompatActivity() {
 
 
         prevButton.setOnClickListener {
-            quizViewModel.moveToPrev()
+            //quizViewModel.moveToPrev()
             if (quizViewModel.prevQuestion==true){
-                prevButton.isEnabled=false
+                trueButton.isEnabled=false
+                falseButton.isEnabled=false
+                quizViewModel.moveToPrev()
             }else{
+                quizViewModel.moveToPrev()
                 updateQuestion()
             }
 
@@ -51,10 +54,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         nextButton.setOnClickListener {
-            quizViewModel.moveToNext()
+            //quizViewModel.moveToNext()
             if (quizViewModel.nextQuestion==true) {
-                nextButton.isEnabled = false
+                trueButton.isEnabled = false
+                falseButton.isEnabled = false
+                quizViewModel.moveToNext()
             }else{
+                quizViewModel.moveToNext()
                 updateQuestion()
             }
 
@@ -73,7 +79,6 @@ class MainActivity : AppCompatActivity() {
         falseButton.setOnClickListener {
             checkAnswer(false )
             quizViewModel.isAnswered(true)
-
         }
 
 
