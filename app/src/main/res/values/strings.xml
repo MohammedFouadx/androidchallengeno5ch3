@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Android Challenge No.5 CH.3</string>
+
+    //// Buttons ///////////////////
+
+    <string name="prev">PREV</string>
+    <string name="next">NEXT</string>
+    <string name="true_button">Yes</string>
+    <string name="false_button">No</string>
+
+
+    /// Questions /////////////
+
+
+
+
+
+        <string name="eFirst"> Do you believe in ghosts?   </string>
+        <string name="eSecound"> Have you ever seen a UFO?   </string>
+        <string name="eThird"> Can cats jump six times their length?   </string>
+        <string name="eFour"> Do you like chocolate milkshakes?   </string>
+        <string name="eFive"> Were you in the swamp yesterday?   </string>
+        <string name="eSix"> Can you see the moon?   </string>
+
+
+    <string name="mFirst">Did baseball influence your life?</string>
+    <string name="mSecound">Can a quarterback get a scholarship?</string>
+    <string name="mThird">Do you know any baseball players names?</string>
+    <string name="mFour">Have you ever been a golf caddy?</string>
+    <string name="mFive">Is ESPN the channel to watch live National Football League (NFL)?</string>
+    <string name="mSix">Can you do the four main swimming strokes?</string>
+
+
+
+    <string name="dFirst">Is there a rulebook for playing Tiddlywinks?</string>
+    <string name="dSecound">Was Snakes and Ladders first played in China?</string>
+    <string name="dThird">Is Q worth 10 points in Scrabble?</string>
+    <string name="dFour">Are there 27 properties in Monopoly?</string>
+    <string name="dFive">Are there 12 tiles for the letter E in Scrabble?</string>
+    <string name="dSix">Can five people play Candyland?</string>
+
+
+
+
+
+
+
+</resources>
